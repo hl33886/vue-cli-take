@@ -2,7 +2,7 @@
 
 > vue多页面实例
  从单页面到多页面 主要修改内容在这4个文件
- ![image](https://github.com/src/assets/readme.png)
+ ![image](https://github.com/hl33886/vue-cli-take/src/assets/readme.png)
 
 ## Build Setup
 
