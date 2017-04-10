@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import shop from '@/components/shop'
+import shop from 'components/details/shop'
 export default {
   name: 'app',
   components: {shop}

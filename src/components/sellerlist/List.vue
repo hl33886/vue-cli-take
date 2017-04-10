@@ -14,18 +14,20 @@
 	</div>
 	<ul class="seller-list">
 		<li v-for="item in newSellerList">
-			<div class="list-logo"><img :src="item.avatar"></div>
-			<div class="list-info">
-				<h2>{{item.name}}</h2>
-				<div class="info-item">
-					<p><span class="orange">{{item.score}}</span></p>
-					<p class="mark tr"><span v-for="item in item.description">{{item}}</span></p>
-				</div>
-				<div class="info-item">
-					<p>￥{{item.minPrice}}起送<em class="divider">/</em>配送费￥{{item.deliveryPrice}}</p>	
-					<p class="tr">{{item.distance | distance}}<em class="divider">/</em><span class="blue">{{item.deliveryTime}}分钟</span></p>
-				</div>
-			</div>
+      <a href="detail.html">
+  			<div class="list-logo"><img :src="item.avatar"></div>
+  			<div class="list-info">
+  				<h2>{{item.name}}</h2>
+  				<div class="info-item">
+  					<p><span class="orange">{{item.score}}</span></p>
+  					<p class="mark tr"><span v-for="item in item.description">{{item}}</span></p>
+  				</div>
+  				<div class="info-item">
+  					<p>￥{{item.minPrice}}起送<em class="divider">/</em>配送费￥{{item.deliveryPrice}}</p>	
+  					<p class="tr">{{item.distance | distance}}<em class="divider">/</em><span class="blue">{{item.deliveryTime}}分钟</span></p>
+  				</div>
+  			</div>
+      </a>
 		</li>
 	</ul>
 	<transition name="fade" mode="out-in">

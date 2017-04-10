@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Ratings from '@/components/ratings'
-import Product from '@/components/product'
+import Ratings from 'components/details/ratings'
+import Product from 'components/details/product'
 
 Vue.use(Router)
 

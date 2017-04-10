@@ -19,4 +19,4 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
-// router.push('/product/product')
+router.push('/product/product')

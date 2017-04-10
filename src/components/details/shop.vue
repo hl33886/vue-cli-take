@@ -1,7 +1,7 @@
 <template>
   <div id="shop">
       <div class="shop-header">
-          <div class="nav"><i class="iconfont">&#xe697;</i></div>
+          <div class="back"><a href="list.html"><i class="iconfont">&#xe697;</i></a></div>
           <div class="header-top">
               <img :src="shopData.avatar">
               <div class="header-top-cont">
