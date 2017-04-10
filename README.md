@@ -1,8 +1,8 @@
 # vuetest
 
-> vue多页面实例
- >从单页面到多页面 主要修改内容在这4个文件
- >![image](https://github.com/hl33886/vue-cli-take/blob/master/src/assets/readme.png)
+> vue多页面实例<br>
+ 从单页面到多页面 主要修改内容在这4个文件<br>
+ ![image](https://github.com/hl33886/vue-cli-take/blob/master/src/assets/readme.png)
 
 ## Build Setup
 
