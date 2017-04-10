@@ -1,6 +1,7 @@
 # vuetest
 
 > vue多页面实例
+ ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
 
 ## Build Setup
 
