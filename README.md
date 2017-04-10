@@ -1,7 +1,8 @@
 # vuetest
 
 > vue多页面实例
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ 从单页面到多页面 主要修改内容在这4个文件
+ ![image](https://github.com/src/assets/readme.png)
 
 ## Build Setup
 
