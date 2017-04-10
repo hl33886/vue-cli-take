@@ -1,6 +1,8 @@
 # vuetest
 
-> A Vue.js project
+> vue多页面实例
+ 从单页面到多页面 主要修改内容在这4个文件
+ ![image](https://github.com/src/assets/readme.png)
 
 ## Build Setup
 
@@ -34,3 +36,5 @@ import BScroll from 'better-scroll'
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+不管Vue 还是angular 打好原生JS基础 最重要
