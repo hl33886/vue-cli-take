@@ -9,12 +9,11 @@
 		<div class="filter" v-if="ifFilter">
 			<div class="search">
 				<input type="text" placeholder="搜索商家" v-model="sellername">
-				<a href="javascript:;" @click="searchSeller">搜索</a>
 			</div>
 		</div>
 	</div>
 	<ul class="seller-list">
-		<li v-for="item in sellerList">
+		<li v-for="item in newSellerList">
 			<div class="list-logo"><img :src="item.avatar"></div>
 			<div class="list-info">
 				<h2>{{item.name}}</h2>
@@ -95,21 +94,6 @@ export default {
       })
     },
     filterName (event) {
-      this.ifFilter = !this.ifFilter
-    },
-    searchSeller () { // 搜索过滤数组
-      let result = []
-      if (!this.sellername) {
-        return this.sellerList
-      }
-      this.sellername = this.sellername.trim()
-      result = this.sellerList.filter(item => {
-        let index = item.name.indexOf(this.sellername)
-        if (index >= 0) {
-          return item
-        }
-      })
-      this.sellerList = result
       this.ifFilter = !this.ifFilter
     }
   }
