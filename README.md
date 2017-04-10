@@ -1,6 +1,6 @@
 # vuetest
 
-> A Vue.js project
+> vue多页面实例
 
 ## Build Setup
 
