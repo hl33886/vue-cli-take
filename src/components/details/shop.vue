@@ -3,7 +3,7 @@
       <div class="shop-header">
           <div class="back"><a href="list.html"><i class="iconfont">&#xe697;</i></a></div>
           <div class="header-top">
-              <img :src="shopData.avatar">
+              <div class="login"><img :src="shopData.avatar"></div>
               <div class="header-top-cont">
                   <h2>{{shopData.name}}</h2>
                   <p>
@@ -82,7 +82,7 @@ export default {
         this.shopData = res.body.data
         this.supportsLen = this.shopData.supports.length
         this.supportsDesc = this.shopData.supports[0].description
-        this.bulletin = this.shopData.bulletin.substring(0, 23) + '...'
+        this.bulletin = this.shopData.bulletin.substring(0, 18) + '...'
       })
     }
   }

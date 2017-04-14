@@ -15,7 +15,7 @@
 	<ul class="seller-list">
 		<li v-for="item in newSellerList">
       <a href="detail.html">
-  			<div class="list-logo"><img :src="item.avatar"></div>
+  			<div class="list-logo"><img v-lazy="item.avatar"></div>
   			<div class="list-info">
   				<h2>{{item.name}}</h2>
   				<div class="info-item">
