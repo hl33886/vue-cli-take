@@ -29,6 +29,17 @@ npm install better-scroll --save-dev
 import BScroll from 'better-scroll'
 详情 [https://www.npmjs.com/package/better-scroll]
 ```
+
+## Vuelazyload
+
+``` Vuelazyload
+npm install vue-lazyload --save-dev
+Vue.use(VueLazyload, {
+  error: error.png,
+  loading: loading.gif,
+  try: 3
+})
+```
 ## stylus
 
 ``` stylus
