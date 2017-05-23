@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import store from '../../store/index'
 import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import VueLazyload from 'vue-lazyload'
@@ -22,6 +23,6 @@ Vue.use(VueLazyload, {
 /* eslint-disable no-new */
 new Vue({
   el: '#list',
-  template: '<App/>',
-  components: { App }
+  store: store,
+  render: h => h(App)
 })

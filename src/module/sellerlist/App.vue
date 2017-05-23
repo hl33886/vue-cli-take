@@ -6,10 +6,21 @@
 </template>
 
 <script>
-import listHeader from 'components/sellerlist/header'
+import listHeader from 'components/header/header'
 import sellerList from 'components/sellerlist/List'
+import { mapMutations } from 'vuex'
 export default {
-  name: 'app',
-  components: {listHeader, sellerList}
+  name: 'list',
+  mounted () {
+    this.$nextTick(() => {
+      this.changeTitle('列表')
+    })
+  },
+  components: {listHeader, sellerList},
+  methods: {
+    ...mapMutations([
+      'changeTitle'
+    ])
+  }
 }
 </script>
